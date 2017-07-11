@@ -10,7 +10,7 @@ export default class Index extends React.Component {
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link>
-        <form name="contact" action="thank-you" netlify>
+        <form name="contact" action="thank-you" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>   
           </p>
